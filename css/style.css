@@ -43,7 +43,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 8px;
     text-align: center;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px rgb(196, 26, 26);
 }
 .section{
     background-color: rgb(62, 59, 85);
