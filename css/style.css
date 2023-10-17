@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.p-img{
+    /* background-image styling */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* flex set-up */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    height: 100vh;
+    background-image: url("../images/autumn.jpg");
+}
+#p2{
+    height: 800px;
+    background-image: url("../images/forest.jpg");
+}
+#p3{
+    height: 800px;
+    background-image: url("../images/scary.jpg");
+}
+#p4{
+    height: 100vh;
+    background-image: url("../images/cerberus.jpg");
+}
+.p-text-container{
+    background-color: rgba(255, 254, 254, 0.504);
+    height: 120px;
+    padding: 20px;
+}
+.p-title{
+    color: rgb(100, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+.section{
+    background-color: rgb(62, 59, 85);
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.section-title{
+    font-family:monospace;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+.section-text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 40px;
+    color: white;
+}
+
+
